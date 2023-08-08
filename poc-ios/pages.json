@@ -1,0 +1,280 @@
+{
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// 首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "index",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// test
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationBarTitleText": "test",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 用户搜索页
+		{
+			"path": "pages/wishSeries/userSearch/index",
+			"style": {
+				"navigationBarTitleText": "Client Lookup",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 用户搜索结果页
+		{
+			"path": "pages/wishSeries/userSearch/userList",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 用户详细信息选择页
+		{
+			"path": "pages/wishSeries/userDetail/index",
+			"style": {
+				"navigationBarTitleText": "Client Profile",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 用户心愿单
+		{
+			"path": "pages/wishSeries/wishList/wishList",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 用户历史商品推荐
+		{
+			"path": "pages/wishSeries/wishList/historySuggest",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		// wishlist 新建商品分析那个推荐
+		{
+			"path": "pages/wishSeries/wishList/suggest",
+			"style": {
+				"navigationBarTitleText": "Suggestion boards not sent",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color":"#cdcdcd"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {
+				"navigationBarTitleText": "Client Lookup"
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-5/tabbar-5",
+			"style": {
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"text": "原生-测试分享",
+				// 			"fontSize": "30rpx",
+				// 			"color":"black",
+				// 			"width": "auto" // 防止按钮显示不全
+				// 		}]
+				// 	}
+				// }
+			}
+		},
+		// jw - 商品一级分类
+		{
+			"path": "pages/menu/commodityLevelOne/index",
+			"style": {
+				"navigationBarTitleText": "Browse catalog"
+				// "disableScroll": true
+			}
+		},
+		// 商品二级分类
+		{
+			"path": "pages/menu/commodityLevelTwo/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		// 选择商品
+		{
+			"path": "pages/menu/commoditySelect/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "Filter",
+							"fontSize": "30rpx",
+							"color":"rgb(204, 204, 204)",
+							"width": "auto" // 防止按钮显示不全
+						}]
+					}
+				}
+			}
+		},
+		// 商品详情页
+		{
+			"path": "pages/menu/commodityDetail/index",
+			"style": {
+				"navigationBarTitleText": "商品id",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "Select",
+							"fontSize": "30rpx",
+							"color":"black",
+							"width": "auto" // 防止按钮显示不全
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/menu/commodityDetailCopy/index",
+			"style": {
+				"navigationBarTitleText": "商品id",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100,
+				"app-plus": {
+					"titleNView": {
+						// "buttons": [{
+						// 	"text": "Select",
+						// 	"fontSize": "30rpx",
+						// 	"color":"black",
+						// 	"width": "auto" // 防止按钮显示不全
+						// }]
+					}
+				}
+			}
+		},
+		// 商品推荐单详情页
+		{
+			"path": "pages/menu/commodityPush/index",
+			"style": {
+				"navigationBarTitleText": "New suggestion board",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"fontSize": "30rpx",
+							"color":"black",
+							"width": "auto" // 防止按钮显示不全
+						}]
+					}
+				}
+			}
+		}
+	],
+	// uview
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "Home"
+			},
+			{
+				"pagePath": "pages/wishSeries/userSearch/index",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "ClientLookup"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "SalesCeremony"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "InventoryLookup"
+			}
+		]
+	}
+}
